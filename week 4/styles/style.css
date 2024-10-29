@@ -1,0 +1,92 @@
+.button { 
+    border: 2px solid #ffffff; /* Параметры рамки */
+    background: #ffffff00; /* Цвет фона */
+    font-size: 14px; /* Размер текста */
+    padding: 5px 20px; /* Поля вокруг текста */
+    border-radius: 5px; /* Скругление рамки */
+    color: rgba(255, 255, 255, 0.888);
+    font-family: 'Franklin Gothic Normal', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px
+        }
+
+.button:hover {
+    font-size: 20px;    
+        }
+
+.c-button { /* селектор */
+    border: 2px solid #5AB963; /* Параметры рамки */
+    background: #5AB963; /* Цвет фона */
+    font-size: 14px; /* Размер текста */
+    padding: 5px 20px; /* Поля вокруг текста */
+    border-radius: 5px; /* Скругление рамки */
+    color: rgba(255, 255, 255, 0.888);
+    font-family: 'Franklin Gothic Normal', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+        }   
+.c-button:hover {
+    font-size: 20px;
+        }
+
+ul { /* селектор */
+    list-style-type: none; /* Убираем маркеры */
+    font-family: 'Franklin Gothic Normal', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+        }
+
+h1 {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 71px;
+        }
+
+#subtitle {
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', Times, serif;
+    font-size: 13px;
+        }
+
+a {
+    text-decoration: none; /* Убираем подчёркивание */
+    color: rgba(255, 255, 255, 0.888); /* Цвет текста */
+        }        
+
+a:hover {
+    font-size: 20px;    
+        }        
+
+a:visited {
+    color: rgba(255, 255, 255, 0.888);
+        }
+
+h2 {
+    color: black;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Normal', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+        }
+
+.compoutend-title {
+    color: #999999;
+    font-weight: lighter;
+        }
+        
+.text {
+    color: #999999;
+        }
+
+.images {
+    border: 2px solid #86868615; /* Параметры рамки */
+    padding: 5px;
+    width: 200px;
+}
+
+.subtitle {
+    color: #999999;
+    font-family: 'IBM Plex Mono', Times, serif;
+    font-size: 13px;
+        }
+
+        .blok {   
+            width: 330px;
+
+        }

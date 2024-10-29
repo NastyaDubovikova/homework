@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опросник для владельцев кошек</title>
+
+</head>
+
+<body>
+
+    <h1>Опросник для владельцев кошек</h1>
+        <form>
+            <div> 
+                <label for="pet-name">Кличка питомца</label>
+                    <input type="text" id="pet-name">
+            </div>
+        </form>
+
+    <fieldset>
+        <legend>Контактные данные хозяина</legend>
+            <div>
+                <label for="name">Имя хозяина</label>
+                    <input type="text" id="name">
+            </div>
+            <div>
+                <label for="number">Номер телефона</label>
+                    <input type="text"  id="number">
+            </div>
+            <div>
+                <label for="email">Электронная почта</label>
+                    <input type="text"  id="email">
+            </div>
+    </fieldset>
+
+    <div>
+        <label for="pet-breed">Порода питомца</label> 
+            <select id="pet-breed">
+                <option value="">Выберете</option>
+                <option value="cur">Дворняга</option>
+                <option value="sphinx">Сфинкс</option>
+                <option value="maine-coon">Мейн-кун</option>
+                <option value="british">Британская</option>
+                <option value="siamese">Сиамская</option>
+                <option value="other">Другая</option>
+            </select>
+    </div>
+
+    <fieldset>
+        <legend>Питание</legend>
+            <label for="food">Чем питается:</label>
+                <div>Сухой корм
+                    <input type="checkbox" name="food" value="1" id="food">
+                </div>
+                <div>Влажный корм 
+                    <input type="checkbox" name="food" value="2">
+                </div>
+                <div>Натуральный корм 
+                    <input type="checkbox" name="food" value="3">
+                </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Пол питомца</legend>
+            <div>Выберите один вариант:</div>
+            <div> Самка 
+                <input type="radio" name="sex" value="1">
+            </div>
+            <div> Самец  
+                <input type="radio" name="sex" value="2">
+            </div>
+    </fieldset>
+    
+    <label for="text">Поле для комментариев:</label> <br>
+        <textarea rows="10" cols="77" id="text"></textarea>
+            <div>
+                <label for="avatar">Приложите фото питомца</label> 
+                    <input type="file" id="avatar" name="avatar"></div>
+                        <input type="reset" value="Сохранить">
+</body>
+</html>
