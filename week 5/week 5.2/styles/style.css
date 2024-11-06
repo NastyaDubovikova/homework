@@ -1,0 +1,141 @@
+
+.header {
+max-width: 1000px;
+padding: 20px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(../assets/img/title.png);
+background-size: cover;
+}
+
+.main {
+background-color: rgba(163, 163, 158, 0.199);
+max-width: 1000px;
+height: 600px;
+padding: 20px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+background-size: cover;
+flex-direction: row;
+align-items: center;
+}
+
+.footer {
+background-color: rgba(0, 0, 0, 0.658);
+max-width: 1000px;
+max-height: 100px;
+padding: 20px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+background-size: cover;    
+}
+
+.main-container_1 {
+    max-width: 60%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around; 
+    background-size: cover;
+    margin: 0 20px;
+
+}
+
+.main-container_2 {
+    width: 40%;
+    height: 600px;
+    display: flex;
+    background-image: url(../assets/img/vegetables.jpg);
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.box_1 {
+        max-height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-grow: 2;
+        margin: 0 20px;
+        background-image: url(../assets/img/chiken.jpg);
+        background-size: cover;
+        justify-content: flex-start;
+        flex-direction: column;
+        
+}
+
+.box_2 {
+        max-height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-grow: 2;
+        margin: 0 20px;
+        background-image: url(../assets/img/lobster.jpg);
+        background-size: cover;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .box_3 {
+        max-height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-grow: 2;
+        margin: 0 20px;
+        background-image: url(../assets/img/pasta.jpg);
+        background-size: cover;
+        justify-content: flex-end;
+        flex-direction: column;
+        }
+
+        .box_4 {
+        max-height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-grow: 2;
+        margin: 0 20px;
+        background-image: url(../assets/img/fish.jpg);
+        background-size: cover;
+        justify-content: flex-end;
+        flex-direction: column;
+        
+        }
+
+    .text {
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+    }
+
+    .text_2 {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    .footer {
+        font-size: 25px;
+    }
+
+    .box_1:hover {
+        transform: scale(1.2);
+    }
+
+    .box_2:hover {
+        transform: scale(1.2);
+    }
+
+    .box_3:hover {
+        transform: scale(1.2);
+    }
+
+    .box_4:hover {
+        transform: scale(1.2);
+    }
